@@ -1,0 +1,92 @@
+body, input, label, button {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+}
+
+.container {
+	margin: 0 auto;
+	width: 980px;
+	padding-bottom: 150px;
+}
+
+.logo {
+	margin-top: 100px;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+	margin-top: 30px;
+}
+
+input, button {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 40px;
+	padding: 5px 10px;
+	font-size: 18px;
+	border: 1px solid black;
+}
+
+button {
+	padding: 5px 20px;
+	margin: 0 0 0 10px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+
+	transition-property: background-color, color;
+	transition-duration: 1s;
+}
+
+.message {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.error {
+	color: red;
+}
+
+.pictureDiv {
+	float: left;
+	margin-left: 16px;
+	margin-bottom: 20px;
+	width: 306px;
+	min-height: 360px;
+	display: inline-block;
+}
+
+h3 {text-align: center; font-weight: normal; }
+
+a {text-decoration: none;} 
+
+.clear {
+	clear: both;
+}
+
+.animate-repeat {
+  box-sizing:border-box;
+}
+
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter,
+.animate-repeat.ng-leave {
+  -webkit-transition:1.0s linear all 0.5s;
+  transition:1.0s linear all 0.5s;
+}
+
+.animate-repeat.ng-leave.ng-leave-active,
+.animate-repeat.ng-move,
+.animate-repeat.ng-enter {
+  opacity:0;
+}
+
+.animate-repeat.ng-leave,
+.animate-repeat.ng-move.ng-move-active,
+.animate-repeat.ng-enter.ng-enter-active {
+  opacity:1;
+}
